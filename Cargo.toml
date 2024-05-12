@@ -1,0 +1,14 @@
+[package]
+name = "merkletree"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+clippy = {version = "*", optional = true}
+rust-crypto = "^0.2"
+rustc-serialize = "0.3"
+
+[features]
+default = []
+dev=["clippy"]
